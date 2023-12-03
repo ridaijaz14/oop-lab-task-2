@@ -1,0 +1,22 @@
+
+class student{
+String name;
+int age;
+public void getinfo(){
+	system.out.println("The name of this student is " + this.name);
+	system.out.println("The age  of this student is " + this.age);
+	
+}
+}
+public class oop lab{
+	public static void main (String[] args){
+		Student s1 =new Student();
+		s1.name ="Rida";
+		s1.age= 24;
+		s1.getInfo();
+		student s2=new student();
+		s2.nmae ="hafsa";
+		s2.age = 22;
+		s2.getInfo();
+	}
+}
